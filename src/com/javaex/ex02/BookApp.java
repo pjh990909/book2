@@ -28,7 +28,7 @@ public class BookApp {
 	    List<BookVo> bookList = bookDao.bookList();
 	    
 	    
-	    BookVo bookVo = new BookVo(1,"","","");
+	    BookVo bookVo = new BookVo(1,"","","",2,"","");
 	    bookDao.bookUpdate(bookVo);
 	    
 	}

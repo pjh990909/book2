@@ -141,7 +141,7 @@ public class AuthorDao {
 		return count;
 
 	}
-	// 작사리스트
+	// 작가리스트
 
 	public List<AuthorVo> authorList() {
 
